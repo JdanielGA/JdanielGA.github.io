@@ -62,3 +62,59 @@ html {
 .content {
     font-size: 3rem;
 }
+
+/* main content */
+
+.content {
+    width: 100%;
+    height: calc(100vh - 7rem);
+    padding-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    background-color: #FFFAFB;
+}
+
+.content-title {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100rem;
+    height: 7.5rem;
+    text-align: center;
+    border: 1px solid #4B4453;
+    border-radius: 1rem;
+    background-color: #694040;
+    z-index: 1;
+}
+
+.content-title h1 {
+    font-size: 5rem;
+}
+
+.content-main { 
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 1.5rem;
+    padding: 2rem;
+    width: 120rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #4B4453;
+    border-radius: 2rem;
+    background-color: #fefefe;
+    z-index: 0;
+}
+
+.content-main p {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.content-main__img img {
+    height: 400px;
+}
