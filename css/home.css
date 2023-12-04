@@ -84,7 +84,6 @@ html {
     display: flex;
     flex-direction: column;
     font-size: 2rem;
-    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.25);
 }
 
 .contactbar-navbar__button {
@@ -110,4 +109,25 @@ html {
 .contactbar-navbar__button button:active {
     background-color: rgba(255, 255, 255, 0.2);
     transform: scale(0.99);
+}
+
+.contactbar-footer {
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactbar-footer__networks {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactbar-footer__networks img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
 }
