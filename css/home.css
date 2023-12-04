@@ -33,21 +33,17 @@ html {
 }
 
 .contactbar-picture {
-    width: 18rem;
-    height: 18rem;
+    width: 17rem;
+    height: 17rem;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 9rem;
-    background-color: rgba(255, 255, 255, 0.25);
-}
-
-.contactbar-picture img {
-    width: 16.5rem;
-    height: 16.5rem;
-    border-radius: 8.25rem;
-    object-fit: cover;
+    background-image: url('/images/profile-pic.png');
+    border: solid 0.5rem rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
 }
 
 .contactbar-header {
@@ -65,7 +61,6 @@ html {
 }
 
 .contactbar-header__position {
-    padding: 0.5rem 0;
     font-size: 1.4rem;
     color: white;
 }
@@ -79,7 +74,7 @@ html {
 
 .contactbar-navbar {
     width: 100%;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
