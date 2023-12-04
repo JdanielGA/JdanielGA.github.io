@@ -50,7 +50,7 @@ html {
     object-fit: cover;
 }
 
-.contactbar-info {
+.contactbar-header {
     width: 100%;
     margin-top: 1rem;
     display: flex;
@@ -59,24 +59,55 @@ html {
     align-items: center;
 }
 
-.contactbar-info__name {
+.contactbar-header__name {
     font-size: 1.6rem;
     color: white;
 }
 
-.contactbar-info__position {
+.contactbar-header__position {
     padding: 0.5rem 0;
     font-size: 1.4rem;
     color: white;
 }
 
+.contactbar-divider {
+    width: 90%;
+    margin-top: 1rem;
+    align-self: center;
+    border-bottom: 0.2rem solid rgba(0, 0, 0, 0.25);
+}
+
 .contactbar-navbar {
     width: 100%;
-    margin-top: 1rem;
+    padding: 1rem 2rem;
     flex-grow: 1;
     display: flex;
+    flex-direction: column;
     font-size: 2rem;
-    text-align: center;
-    border-top: 0.1rem solid rgba(0, 0, 0, 0.25);
     border-bottom: 0.1rem solid rgba(0, 0, 0, 0.25);
+}
+
+.contactbar-navbar__button {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.contactbar-navbar__button button {
+    width: 100%;
+    padding: 1.2rem 0;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 1rem;
+    background: none;
+}
+
+.contactbar-navbar__button button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: scale(1.01);
+}
+
+.contactbar-navbar__button button:active {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(0.99);
 }
