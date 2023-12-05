@@ -107,6 +107,11 @@ html {
     overflow: auto;
 }
 
+.content-main::-webkit-scrollbar {
+    display: none;
+}
+
+
 .content-main__text{
     width: 100%;
     font-size: 1.4rem;
