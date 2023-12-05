@@ -67,7 +67,7 @@ html {
 
 .contactbar-divider {
     width: 90%;
-    margin-top: 1rem;
+    margin: 0.5rem 0;
     align-self: center;
     border-bottom: 0.2rem solid rgba(0, 0, 0, 0.25);
 }
@@ -108,9 +108,9 @@ html {
 
 .contactbar-footer {
     width: 100%;
+    height: 3.7rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,8 +123,13 @@ html {
     justify-content: space-around;
 }
 
+.contactbar-footer__networks li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .contactbar-footer__networks img {
     width: 2.5rem;
     height: 2.5rem;
-    margin-right: 1rem;
 }
