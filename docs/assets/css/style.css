@@ -1,8 +1,8 @@
 /* assets/css/style.css */
 
 /* 1 - Base */
-@import url('./base/_reset.css');
-@import url('./base/_typography.css');
+@import url('./base/reset.css');
+@import url('./base/typography.css');
 
 /* 3 - Layout */
 @import url('./layout/header.css');
