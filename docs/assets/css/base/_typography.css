@@ -1,0 +1,10 @@
+/* assets/base/_typography.css */
+
+:root {
+    --font-heading: 'Poppins', sans-serif;
+    --font-body: 'Roboto', sans-serif;
+}
+
+header, .sidebar-header, .main-nav__link {
+    font-family: var(--font-heading);
+}
